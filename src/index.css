@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 @layer components{
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
   html{
     scroll-behavior: smooth;
+  }
+  .root{
+    height: 100vh;
   }
   :root{
     --color-main: #6BBB56;
@@ -12,8 +18,11 @@
     --color-black: #333333;
     --color-grey: #707070;
   }
-  body{
-    font-family: 'Lato', sans-serif;
+  .nav{
+    font-family: 'Lato', sans-serif !important;
+  }
+  .nav *{
+    font-family: inherit;
   }
   .logo{
       color:var(--color-main);
@@ -21,6 +30,53 @@
   .logo>div{
     background-color: var(--color-secondary);
   }
- 
-
+  span,div,p{
+    color: var(--color-black);
+  }
+.bar{
+  transition: all .2s ease-in-out;
+}
+  .bar.closed{
+    width: 3rem;
+    height: 5px;
+    background-color: black;
+    position: relative;
+  }
+  .bar.closed::after{
+    content: '';
+    width: 3rem;
+    height: 5px;
+    position: absolute;
+    background-color: black;
+    top: .7rem;
+  }
+  .bar.closed::before{
+    content: '';
+    width: 3rem;
+    height: 5px;
+    position: absolute;
+    background-color: black;
+    top: -.7rem;
+  }
+  
+  .bar.open{
+    width: 3rem;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    transform: rotate(-45deg);
+  }
+  .bar.open::after{
+    content: '';
+    width: 3rem;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 1px;
+    transform: rotate(90deg);
+  }
+  .resources>img{
+    width: 100%;
+    height: auto;
+  }
 }
