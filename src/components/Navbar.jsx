@@ -1,3 +1,4 @@
+
 function Navbar({ navOpen, setNavOpen }) {
   return (
     <>
@@ -32,7 +33,7 @@ function Navbar({ navOpen, setNavOpen }) {
         </div>
         <span
           className={`bar ${
-            navOpen ? "closed" : "open"
+            "closed"
           } block md:hidden text-xl font-bold cursor-pointer`}
           onClick={() => setNavOpen(!navOpen)}
         ></span>

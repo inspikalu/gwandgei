@@ -10,13 +10,17 @@ import { useState } from "react";
 function App() {
   const [navOpen, setNavOpen] = useState(true);
   return (
-    <div className="flex flex-row-reverse">
+    <div className="flex flex-row-reverse ">
       <div
-        className={`md:hidden sideBar nav_links ${
+        className={`md:hidden w-[50%] fixed top-0 right-0 h-[100vh] z-20 sideBar nav_links ${
           navOpen ? "hidden" : "flex"
         } flex-col gap-5 p-4 bg-[var(--color-black)]`}
         onClick={() => setNavOpen(!navOpen)}
       >
+        <div className="py-2"></div>
+        <span className="bar open"></span>
+        <div className="py-2"></div>
+
         <ul className=" md:flex flex-row gap-5 mr-auto text-white">
           <li>
             <a href="#mission">Mission</a>
@@ -26,9 +30,6 @@ function App() {
           </li>
           <li>
             <a href="#resources">Resources</a>
-          </li>
-          <li>
-            <a href="#testimonial">Testimonials</a>
           </li>
           <li>
             <a href="#contacts">Contacts</a>

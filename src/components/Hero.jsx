@@ -3,12 +3,12 @@ import child from "../assets/img (3).png";
 export default function Hero() {
   return (
     <>
-      <div className="hero my-24 mx-auto w-[90%] md:w-[80%] lg:w-[70%] flex gap-4 flex-col md:flex-row justify-center items-center">
-        <div className="left flex flex-col gap-4">
+      <div className="hero my-24 mx-auto w-[90%] md:w-[80%] lg:w-[70%] grid gap-4 grid-cols-1 md:grid-cols-2 justify-center items-center">
+        <div className="left flex flex-col gap-4 w-[100%]">
           <h1 className="text-[var(--color-black)] text-xl font-extrabold w-[30ch]">
             Empowering Women and Girls From Across Africa
           </h1>
-          <p className="text-base w-[50ch]">
+          <p className="text-base max-w-[50ch]">
             Bridging divides, fostering leadership, and igniting opportunities
             for growth and prosperity continent-wide.
           </p>

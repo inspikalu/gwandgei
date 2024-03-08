@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components{
+  html, body, .app, #root{
+    width: 100%;
+  }
   *{
     font-family: 'Poppins', sans-serif;
   }
@@ -10,6 +13,7 @@
     scroll-behavior: smooth;
   }
   .root{
+    width: 100%;
     height: 100vh;
   }
   :root{
@@ -60,9 +64,10 @@
   }
   
   .bar.open{
+    
     width: 3rem;
     height: 5px;
-    background-color: black;
+    background-color: white;
     position: relative;
     transform: rotate(-45deg);
   }
@@ -70,7 +75,7 @@
     content: '';
     width: 3rem;
     height: 5px;
-    background-color: black;
+    background-color: white;
     position: absolute;
     top: 1px;
     transform: rotate(90deg);
@@ -78,5 +83,28 @@
   .resources>img{
     width: 100%;
     height: auto;
+  }
+  .footer_items > .hr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .footer_items > .grid{
+    z-index: 10;
+    position: relative;
+    background-color: var(--color-black);
+    margin-inline: auto;
+    padding-inline: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .social_link >img{
+    width: 4rem;
+  }
+  .footer_links > li > a{
+    text-decoration: underline;
   }
 }
