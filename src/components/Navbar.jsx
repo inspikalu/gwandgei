@@ -1,4 +1,3 @@
-
 function Navbar({ navOpen, setNavOpen }) {
   return (
     <>
@@ -18,10 +17,10 @@ function Navbar({ navOpen, setNavOpen }) {
               <a href="#about">About Us</a>
             </li>
             <li>
-              <a href="#resources">Resources</a>
+              <a href="#vision">Our Vision</a>
             </li>
             <li>
-              <a href="#testimonial">Testimonials</a>
+              <a href="#resources">Resources</a>
             </li>
             <li>
               <a href="#contacts">Contacts</a>
@@ -32,9 +31,7 @@ function Navbar({ navOpen, setNavOpen }) {
           </button>
         </div>
         <span
-          className={`bar ${
-            "closed"
-          } block md:hidden text-xl font-bold cursor-pointer`}
+          className={`bar ${"closed"} block md:hidden text-xl font-bold cursor-pointer`}
           onClick={() => setNavOpen(!navOpen)}
         ></span>
       </div>
