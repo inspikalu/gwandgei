@@ -1,9 +1,13 @@
 import whatsappLogo from "../assets/whatsapp.svg";
-import child from "../assets/img (3).png";
+import child from "../assets/img (3).webp";
+// import child from "../assets/img (3).png";
 export default function Hero() {
   return (
     <>
-      <div className="hero my-24 mx-auto w-[90%] md:w-[80%] lg:w-[70%] grid gap-4 grid-cols-1 md:grid-cols-2 justify-center items-center">
+      <div
+        className="hero my-24 mx-auto w-[90%] md:w-[80%] lg:w-[70%] grid gap-4 grid-cols-1 md:grid-cols-2 justify-center items-center"
+        loading="lazy"
+      >
         <div className="left flex flex-col gap-4 w-[100%]">
           <h1 className="text-[var(--color-black)] text-xl font-extrabold w-[30ch]">
             Empowering Women and Girls From Across Africa

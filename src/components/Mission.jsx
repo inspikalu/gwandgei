@@ -1,4 +1,4 @@
-import crowd from "../assets/img (5).png";
+import crowd from "../assets/img (5).webp";
 
 export default function Mission() {
   return (

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
 import About from "./components/About";
+import Vision from "./components/Vision";
 import Resources from "./components/Resources";
 import Footer from "./components/Footer";
 
@@ -29,6 +30,9 @@ function App() {
             <a href="#about">About Us</a>
           </li>
           <li>
+            <a href="#vision">Our Vision</a>
+          </li>
+          <li>
             <a href="#resources">Resources</a>
           </li>
           <li>
@@ -44,6 +48,7 @@ function App() {
         <Hero />
         <Mission />
         <About />
+        <Vision />
         <Resources />
         <Footer />
       </div>
