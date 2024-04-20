@@ -18,18 +18,18 @@ export default function Resources() {
         <h1 className="text-center text-[var(--color-main)] text-xl font-bold my-8">
           Resources
           <div className="my-4 w-[90%] mx-auto grid gap-4 grid-cols-2 md:grid-cols-4 resources">
-            <img loading="lazy" src={img1} alt={img1} />
-            <img loading="lazy" src={img2} alt={img2} />
-            <img loading="lazy" src={img3} alt={img3} />
-            <img loading="lazy" src={img4} alt={img4} />
-            <img loading="lazy" src={img5} alt={img5} />
-            <img loading="lazy" src={img6} alt={img6} />
-            <img loading="lazy" src={img7} alt={img7} />
-            <img loading="lazy" src={img8} alt={img8} />
-            <img loading="lazy" src={img9} alt={img9} />
-            <img loading="lazy" src={img10} alt={img10} />
-            <img loading="lazy" src={img11} alt={img11} />
-            <img loading="lazy" src={img12} alt={img12} />
+            <img loading="lazy" src={img1} alt={img1} data-aos="fade-left" />
+            <img loading="lazy" src={img2} alt={img2} data-aos="fade-left" />
+            <img loading="lazy" src={img3} alt={img3} data-aos="fade-right" />
+            <img loading="lazy" src={img4} alt={img4} data-aos="fade-right" />
+            <img loading="lazy" src={img5} alt={img5} data-aos="fade-left" />
+            <img loading="lazy" src={img6} alt={img6} data-aos="fade-left" />
+            <img loading="lazy" src={img7} alt={img7} data-aos="fade-right" />
+            <img loading="lazy" src={img8} alt={img8} data-aos="fade-right" />
+            <img loading="lazy" src={img9} alt={img9} data-aos="fade-left" />
+            <img loading="lazy" src={img10} alt={img10} data-aos="fade-left" />
+            <img loading="lazy" src={img11} alt={img11} data-aos="fade-right" />
+            <img loading="lazy" src={img12} alt={img12} data-aos="fade-right" />
           </div>
         </h1>
       </div>

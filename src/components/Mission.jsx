@@ -9,7 +9,7 @@ export default function Mission() {
         </h2>
 
         <div className="mission my-24 mx-auto w-[90%] md:w-[80%] lg:w-[70%] flex gap-5 flex-col md:flex-row justify-center items-center">
-          <div className="left w-[80%] md:w-[80vh]">
+          <div className="left w-[80%] md:w-[80vh]" data-aos="fade-right">
             <img
               src={crowd}
               alt="An image of a child"

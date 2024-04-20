@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="right w-[80%] md:w-[80vh]">
+        <div className="right w-[80%] md:w-[80vh]" data-aos="fade-left">
           <img src={child} alt="An image of a child" />
         </div>
       </div>
