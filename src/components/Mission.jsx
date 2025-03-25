@@ -18,10 +18,7 @@ export default function Mission() {
           </div>
 
           <div className="right flex flex-col gap-4 text-base">
-            Our mission is to empower indigent women, and children to live a
-            fulfilled life, free from intimidation, violence, exploitation and
-            other forms of vices that make them vulnerable in a male dominated
-            society.
+          Our mission is to empower and uplift under served communities through grassroots initiatives that promote education, environmental sustainability, health awareness, and socio-economic development. We are committed to fostering long-term positive change by engaging local leaders, creating inclusive programs, and providing resources to build a better future for all. We also expose the youth on the danger of growing up in a contemporary environment .
           </div>
         </div>
       </div>
